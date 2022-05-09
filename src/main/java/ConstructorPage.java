@@ -4,39 +4,39 @@ import org.openqa.selenium.support.How;
 
 public class ConstructorPage {
 
-    //локатор кнопки Личный кабинет
+    //локатор кнопки "Личный кабинет"
     @FindBy(how = How.XPATH, using = "//p[text()='Личный Кабинет']")
     private SelenideElement personalAccountButton;
 
-    //локатор заголовка Соберите бургер
+    //локатор заголовка "Соберите бургер"
     @FindBy(how = How.XPATH, using = "//h1[text()='Соберите бургер']")
     private SelenideElement assembleBurgerHeader;
 
-    //локатор вкладки Булки
+    //локатор вкладки "Булки"
     @FindBy(how = How.XPATH, using = "//span[text()='Булки']")
     private SelenideElement burgersTab;
 
-    //локатор вкладки Соусы
+    //локатор вкладки "Соусы"
     @FindBy(how = How.XPATH, using = "//span[text()='Соусы']")
     private SelenideElement saucesTab;
 
-    //локатор вкладки Начинки
+    //локатор вкладки "Начинки"
     @FindBy(how = How.XPATH, using = "//span[text()='Начинки']")
     private SelenideElement fillingTab;
 
-    //локатор заголовка Булки
+    //локатор заголовка "Булки"
     @FindBy(how = How.XPATH, using = "//h2[text()='Булки']")
     private SelenideElement burgersHeader;
 
-    //локатор заголовка Соусы
+    //локатор заголовка "Соусы"
     @FindBy(how = How.XPATH, using = "//h2[text()='Соусы']")
     private SelenideElement saucesHeader;
 
-    //локатор заголовка Начинки
+    //локатор заголовка "Начинки"
     @FindBy(how = How.XPATH, using = "//h2[text()='Начинки']")
     private SelenideElement fillingHeader;
 
-    //локатор кнопки Войти в аккаунт
+    //локатор кнопки "Войти в аккаунт"
     @FindBy(how = How.XPATH, using = "//button[text()='Войти в аккаунт']")
     private SelenideElement logInToAccountButton;
 

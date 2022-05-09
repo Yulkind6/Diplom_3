@@ -33,9 +33,8 @@ public class LoginTest {
         authorizationPage.getConstructorButton().click();
     }
 
-
     @Test
-    @DisplayName("Вход по кнопке «Войти в аккаунт» на главной")
+    @DisplayName("Вход по кнопке «Войти в аккаунт» на главной странице")
     public void logInToAccountMainSuccessTest() {
         constructorPage.getLogInToAccountButton().click();
         authorizationPage.getEntranceHeader().shouldBe(Condition.visible);
@@ -46,7 +45,7 @@ public class LoginTest {
     }
 
     @Test
-    @DisplayName("Вход через кнопку «Личный кабинет»")
+    @DisplayName("Вход по кнопке «Личный кабинет»")
     public void loginViaPersonalAccountButtonSuccessTest() {
         constructorPage.getPersonalAccountButton().click();
         authorizationPage.getEntranceHeader().shouldBe(Condition.visible);
@@ -57,7 +56,7 @@ public class LoginTest {
     }
 
     @Test
-    @DisplayName("Вход через кнопку в форме регистрации")
+    @DisplayName("Вход по кнопке в форме регистрации")
     public void loginViaButtonInRegistrationFormSuccessTest() {
         constructorPage.getPersonalAccountButton().click();
         authorizationPage.getRegisterLink().click();
@@ -70,7 +69,7 @@ public class LoginTest {
     }
 
     @Test
-    @DisplayName("Вход через кнопку в форме восстановления пароля")
+    @DisplayName("Вход по кнопке в форме восстановления пароля")
     public void loginViaButtonInPasswordRecoveryFormSuccessTest() {
         constructorPage.getPersonalAccountButton().click();
         authorizationPage.getRecoverPasswordLink().click();
@@ -81,7 +80,6 @@ public class LoginTest {
         constructorPage.getAssembleBurgerHeader().shouldBe(Condition.visible);
         assertThat(WebDriverRunner.getWebDriver().getCurrentUrl(), equalTo(constructorPage.url));
     }
-
 
     @After()
     @Step("Выход из системы")

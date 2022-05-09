@@ -34,7 +34,7 @@ public class RegistrationTest {
     }
 
     @Test
-    @DisplayName("Ошибка регистрации с невалидным паролем")
+    @DisplayName("Ошибка регистрации пользователя с невалидным паролем")
     public void registrationWrongPasswordErrorTest() {
         del = false;
         constructorPage = open(Base.BASE_URL, ConstructorPage.class);

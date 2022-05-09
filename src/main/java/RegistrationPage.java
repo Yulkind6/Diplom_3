@@ -1,4 +1,3 @@
-import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -7,27 +6,27 @@ import org.openqa.selenium.support.How;
 
 public class RegistrationPage {
 
-    //локатор поля ввода Имя
+    //локатор поля ввода "Имя"
     @FindBy(how = How.XPATH, using = "//div/label[text()='Имя']/following::input[1]")
     private SelenideElement nameInput;
 
-    //локатор поля ввода Email
+    //локатор поля ввода "Email"
     @FindBy(how = How.XPATH, using = "//div/label[text()='Email']/following::input[1]")
     private SelenideElement emailInput;
 
-    //локатор поля ввода Пароль
+    //локатор поля ввода "Пароль"
     @FindBy(how = How.XPATH, using = "//div/label[text()='Пароль']/following::input[1]")
     private SelenideElement passwordInput;
 
-    //локатор кнопки Зарегистрироваться
+    //локатор кнопки "Зарегистрироваться"
     @FindBy(how = How.XPATH, using = "//button[@class='button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa']")
     private SelenideElement registerButton;
 
-    //локатор предупреждения об ошибку Некорректный пароль
+    //локатор предупреждения об ошибке "Некорректный пароль"
     @FindBy(how = How.XPATH, using = "//p[text()='Некорректный пароль']")
     private SelenideElement incorrectPasswordWarning;
 
-    //локатор линка Войти
+    //локатор ссылки "Войти"
     @FindBy(how = How.XPATH, using = "//a[text()='Войти']")
     private SelenideElement loginLink;
 

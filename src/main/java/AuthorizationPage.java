@@ -4,31 +4,31 @@ import org.openqa.selenium.support.How;
 
 public class AuthorizationPage {
 
-    //локатор кнопки Конструктор
+    //локатор кнопки "Конструктор"
     @FindBy(how = How.XPATH, using = "//p[text()='Конструктор']")
     private SelenideElement constructorButton;
 
-    //локатор заголовка Вход
+    //локатор кнопки "Войти в аккаунт"
     @FindBy(how = How.XPATH, using = "//h2[text()='Вход']")
     private SelenideElement entranceHeader;
 
-    //локатор поля ввода Email
+    //локатор поля ввода "Email"
     @FindBy(how = How.XPATH, using = "//div/label[text()='Email']/following::input[1]")
     private SelenideElement emailInput;
 
-    //локатор поля ввода Пароль
+    //локатор поля ввода "Пароль"
     @FindBy(how = How.XPATH, using = "//div/label[text()='Пароль']/following::input[1]")
     private SelenideElement passwordInput;
 
-    //локатор кнопки Войти
+    //локатор кнопки "Войти"
     @FindBy(how = How.XPATH, using = "//button[text()='Войти']")
     private SelenideElement loginButton;
 
-    //локатор линка Зарегистрироваться
+    //локатор ссылки "Зарегистрироваться"
     @FindBy(how = How.XPATH, using = "//a[text()='Зарегистрироваться']")
     private SelenideElement registerLink;
 
-    //локатор линка Восстановить пароль
+    //локатор ссылки "Восстановить пароль"
     @FindBy(how = How.XPATH, using = "//a[text()='Восстановить пароль']")
     private SelenideElement recoverPasswordLink;
 

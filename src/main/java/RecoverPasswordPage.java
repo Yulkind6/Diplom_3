@@ -4,7 +4,7 @@ import org.openqa.selenium.support.How;
 
 public class RecoverPasswordPage {
 
-    //локатор линка Войти
+    //локатор ссылки "Войти в аккаунт"
     @FindBy(how = How.XPATH, using = "//a[text()='Войти']")
     private SelenideElement loginLink;
 

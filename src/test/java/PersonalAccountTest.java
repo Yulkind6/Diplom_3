@@ -33,7 +33,6 @@ public class PersonalAccountTest {
         authorizationPage.authorization(registrationPage.emailValue, registrationPage.passwordValue);
     }
 
-
     @Test
     @DisplayName("Переход в личный кабинет")
     public void transferToPersonalAccountSuccessTest() {
@@ -45,7 +44,7 @@ public class PersonalAccountTest {
     }
 
     @Test
-    @DisplayName("Переход из личного кабинета в конструктор по клику на «Конструктор»")
+    @DisplayName("Переход из личного кабинета в конструктор по клику на кнопку «Конструктор»")
     public void switchingFromPersonalAccountToConstructorViaConstructorButtonSuccessTest() {
         logout = true;
         constructorPage.getPersonalAccountButton().click();
@@ -76,7 +75,6 @@ public class PersonalAccountTest {
         authorizationPage.getEntranceHeader().shouldBe(Condition.visible);
         assertThat(WebDriverRunner.getWebDriver().getCurrentUrl(), equalTo(authorizationPage.url));
     }
-
 
     @After
     @Step("Выход из системы")
