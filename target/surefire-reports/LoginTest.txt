@@ -1,0 +1,172 @@
+-------------------------------------------------------------------------------
+Test set: LoginTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 37.279 s <<< FAILURE! - in LoginTest
+loginViaPersonalAccountButtonSuccessTest(LoginTest)  Time elapsed: 9.902 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //p[text()='Личный Кабинет']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091282243.3.png
+Page source: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091282243.3.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Личный Кабинет']"}
+	at LoginTest.registration(LoginTest.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Личный Кабинет']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-22G40KG', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f7b833cfb42d2cfaf3432256b15d922, findElement {using=xpath, value=//p[text()='Личный Кабинет']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\yulki\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58518/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f7b833cfb42d2cfaf3432256b15d922
+	at LoginTest.registration(LoginTest.java:28)
+
+loginViaPersonalAccountButtonSuccessTest(LoginTest)  Time elapsed: 9.906 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //p[text()='Конструктор']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091287306.4.png
+Page source: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091287306.4.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Конструктор']"}
+	at LoginTest.tearDown(LoginTest.java:89)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Конструктор']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-22G40KG', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f7b833cfb42d2cfaf3432256b15d922, findElement {using=xpath, value=//p[text()='Конструктор']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\yulki\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58518/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f7b833cfb42d2cfaf3432256b15d922
+	at LoginTest.tearDown(LoginTest.java:89)
+
+loginViaButtonInRegistrationFormSuccessTest(LoginTest)  Time elapsed: 9.241 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //p[text()='Личный Кабинет']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091292117.5.png
+Page source: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091292117.5.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Личный Кабинет']"}
+	at LoginTest.registration(LoginTest.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Личный Кабинет']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-22G40KG', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f7b833cfb42d2cfaf3432256b15d922, findElement {using=xpath, value=//p[text()='Личный Кабинет']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\yulki\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58518/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f7b833cfb42d2cfaf3432256b15d922
+	at LoginTest.registration(LoginTest.java:28)
+
+loginViaButtonInRegistrationFormSuccessTest(LoginTest)  Time elapsed: 9.256 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //p[text()='Конструктор']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091296720.6.png
+Page source: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091296720.6.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Конструктор']"}
+	at LoginTest.tearDown(LoginTest.java:89)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Конструктор']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-22G40KG', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f7b833cfb42d2cfaf3432256b15d922, findElement {using=xpath, value=//p[text()='Конструктор']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\yulki\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58518/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f7b833cfb42d2cfaf3432256b15d922
+	at LoginTest.tearDown(LoginTest.java:89)
+
+loginViaButtonInPasswordRecoveryFormSuccessTest(LoginTest)  Time elapsed: 9.092 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //p[text()='Личный Кабинет']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091301394.7.png
+Page source: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091301394.7.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Личный Кабинет']"}
+	at LoginTest.registration(LoginTest.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Личный Кабинет']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-22G40KG', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f7b833cfb42d2cfaf3432256b15d922, findElement {using=xpath, value=//p[text()='Личный Кабинет']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\yulki\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58518/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f7b833cfb42d2cfaf3432256b15d922
+	at LoginTest.registration(LoginTest.java:28)
+
+loginViaButtonInPasswordRecoveryFormSuccessTest(LoginTest)  Time elapsed: 9.096 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //p[text()='Конструктор']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091305881.8.png
+Page source: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091305881.8.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Конструктор']"}
+	at LoginTest.tearDown(LoginTest.java:89)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Конструктор']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-22G40KG', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f7b833cfb42d2cfaf3432256b15d922, findElement {using=xpath, value=//p[text()='Конструктор']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\yulki\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58518/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f7b833cfb42d2cfaf3432256b15d922
+	at LoginTest.tearDown(LoginTest.java:89)
+
+logInToAccountMainSuccessTest(LoginTest)  Time elapsed: 8.981 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //p[text()='Личный Кабинет']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091310420.9.png
+Page source: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091310420.9.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Личный Кабинет']"}
+	at LoginTest.registration(LoginTest.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Личный Кабинет']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-22G40KG', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f7b833cfb42d2cfaf3432256b15d922, findElement {using=xpath, value=//p[text()='Личный Кабинет']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\yulki\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58518/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f7b833cfb42d2cfaf3432256b15d922
+	at LoginTest.registration(LoginTest.java:28)
+
+logInToAccountMainSuccessTest(LoginTest)  Time elapsed: 8.985 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //p[text()='Конструктор']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091314888.10.png
+Page source: file:/C:/Users/yulki/Desktop/Yandex.Praktikum/Diplom/Diplom_3/build/reports/tests/1652091314888.10.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Конструктор']"}
+	at LoginTest.tearDown(LoginTest.java:89)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Конструктор']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-22G40KG', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f7b833cfb42d2cfaf3432256b15d922, findElement {using=xpath, value=//p[text()='Конструктор']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\yulki\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58518/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f7b833cfb42d2cfaf3432256b15d922
+	at LoginTest.tearDown(LoginTest.java:89)
+
