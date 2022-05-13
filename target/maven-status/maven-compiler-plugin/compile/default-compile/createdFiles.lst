@@ -1,0 +1,11 @@
+Configuration.class
+UserRegisterResponse.class
+UserOperations.class
+Base.class
+PersonalAccountPage.class
+RegistrationPage.class
+User.class
+AuthorizationPage.class
+RecoverPasswordPage.class
+Tokens.class
+ConstructorPage.class
